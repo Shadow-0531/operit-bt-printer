@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.class
+out/
+dexout/
+.DS_Store
+*.toolpkg
+*.bin
+!plugin/dex/*.dex

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "toolpkg_id": "com.operit.bt_probe",
+  "version": "0.8.0",
+  "main": "dist/main.js",
+  "display_name": {
+    "zh": "蓝牙探测",
+    "en": "BT Probe"
+  },
+  "description": {
+    "zh": "探测 Operit 能否通过 Java Bridge 访问 Android 蓝牙；列出已配对/扫描到的设备，定位 PD01。",
+    "en": "Probe whether Operit can access Android Bluetooth via Java Bridge; list bonded/found devices, locate PD01."
+  },
+  "enabled_by_default": true,
+  "subpackages": [
+    {
+      "id": "bt_probe_tools",
+      "entry": "dist/packages/bt_probe_tools.js",
+      "enabled_by_default": true
+    }
+  ]
+}
